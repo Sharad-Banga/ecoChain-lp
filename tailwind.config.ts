@@ -1,4 +1,3 @@
-
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -18,8 +17,8 @@ const config: Config = {
       },
       fontFamily: {
         raleway: ['var(--font-raleway)'],
-        Poppins : ['var(--font-poppins)'],
-        geistSans: ['var(--font-geist-sans)']
+        poppins: ['var(--font-poppins)'],
+        geistsans: ['var(--font-geist-sans)']
       },
     },
   },
