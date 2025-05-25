@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.font-raleway {
+  font-family: var(--font-raleway), sans-serif;
+}
+
+.font-Poppins{
+  font-family:  var(--font-poppins) ,sans-serif;
+}
+
+.font-geistSans{
+  font-family:  var(--font-geist-sans) ,sans-serif;
+}

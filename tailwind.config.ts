@@ -1,3 +1,4 @@
+
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -14,7 +15,12 @@ const config: Config = {
       },
       backgroundImage:{
         "herox" : "url('/public/images/image.png')"
-      }
+      },
+      fontFamily: {
+        raleway: ['var(--font-raleway)'],
+        Poppins : ['var(--font-poppins)'],
+        geistSans: ['var(--font-geist-sans)']
+      },
     },
   },
   plugins: [],
