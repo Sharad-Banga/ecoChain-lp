@@ -47,10 +47,11 @@ export default function Hero(){
 
                         <div className="w-[96%] h-[46%]   rounded-t-2xl flex gap-[3%]">
 
-                          <div className="bg-[#EDFFEF] h-full w-[50%] rounded-t-2xl">
+                          <div className="bg-[#edffef] h-full w-[50%] rounded-t-2xl flex justify-start items-end backdrop-blur-3xl">
 
+                            
                               
-                              
+                                <div className=" opacity-60 text-[35px] animate-pulse ml-1 mb-1">🍀</div>
 
                           </div>
 
@@ -112,9 +113,15 @@ export default function Hero(){
 
 
 
-                              <div className="w-[30%] h-full bg-[#B1EEB9] rounded-t-2xl flex">
+                              <div className="w-[30%] h-full bg-[#B1EEB9] rounded-t-2xl flex flex-col justify-evenly items-center">
 
-                                <div className="bg-white h-[20px] w-[20px] transition-transform transform scale-200 bor" >
+                                <div className=" w-[75%] transition-transform transform hover:scale-200  origin-left">
+                                  <div className="bg-white h-[10px] w-[10px]  rounded-4xl" >
+
+                                  </div>
+                                </div>
+
+                                <div className="bg-white h-[40px] w-[40px] transition-transform transform hover:scale-200 rounded-4xl" >
 
                                 </div>
 
