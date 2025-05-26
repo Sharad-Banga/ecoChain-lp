@@ -8,7 +8,7 @@ export default function Hero(){
       <div className="bg-[url('/images/gradient.png')] h-[96vh] w-[98vw] rounded-3xl flex justify-center items-center">
 
           <div className="flex flex-col items-center mt-12 h-[90vh] ">
-            <div className="h-[700px] bg-fuchsia-300">
+            <div className="h-[1000px] ">
 
             </div>
                 <div className="font-raleway flex flex-col justify-center items-center text-[42px] gap-0  font-semibold mt-10">
@@ -31,9 +31,11 @@ export default function Hero(){
                   </div>
                 </div>
 
-                <div className="h-[1000px] w-[60vw] mt-30 bg-red-400 rounded-t-2xl">
+                <div className="h-[220px] w-[60vw] mt-20 bg-white rounded-t-2xl flex justify-center items-end">
 
-                  <div className="">
+                  <div className="h-[200px] w-[58vw] bg-[url('/images/hero2.png')]  bg-cover mt-4 rounded-t-lg">
+
+                   
 
                   </div>
 
