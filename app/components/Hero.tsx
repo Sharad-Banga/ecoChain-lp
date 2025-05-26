@@ -35,11 +35,15 @@ export default function Hero(){
 
                   <div className="h-[200px] w-[58vw] bg-[#C3FFCB]  bg-cover mt-4 rounded-t-lg flex flex-col justify-between items-center">
 
-                        <div className="w-[96%] mt-[24px] h-[30%] bg-[#E0FFE4] rounded-xl flex justify-between items-center pr-2  hover:rotate-x-0 transition-transform duration-300">
+                        <div className="w-[96%] mt-[24px] h-[30%] bg-[#E0FFE4] rounded-xl flex justify-start items-center pr-2  hover:rotate-x-0 transition-transform duration-300">
 
-                            <span className="text-white text-4xl  animate-pulse duration-20">✦</span>
+                            <span className="text-white text-4xl  duration-20 ml-2">✦</span>
 
-                            <div className="text-[30px] opacity-50">
+                            <div className="text-[30px] opacity-40 ml-4">
+
+                               <div className="font-geistsans font-bold text-[20px]">
+                                                🌱   Eco<span className="text-[#00AA14]">Chain</span>
+                                              </div>
                              
                             </div>
                         </div>
@@ -51,7 +55,8 @@ export default function Hero(){
 
                             
                               
-                                <div className=" opacity-60 text-[35px] animate-pulse ml-1 mb-1">🍀</div>
+                                <div className=" opacity-60 text-[35px] animate-pulse ml-1 mb-1"></div>
+
 
                           </div>
 
@@ -66,6 +71,8 @@ export default function Hero(){
                                       <div className="text-white animate-ping ml-8 ">
                                                 ✦
                                       </div>
+
+                                           
                                 </div>
 
                                 <div className=" w-full h-[23px] rounded-r-2xl flex justify-end transform transition-transform hover:-rotate-4 origin-right">
