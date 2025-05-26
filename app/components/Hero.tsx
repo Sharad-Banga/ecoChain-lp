@@ -24,17 +24,106 @@ export default function Hero(){
 
                 <div className="flex gap-4 mt-[20px] ">
                   <div >
-                    <Button height="35px" width="90px" text={"Sign In"} bgcolor="#00AA14" textcolor="white" />
+                    <Button size="md" text={"Sign In"} bgcolor="#00AA14" textcolor="white" />
                   </div>
                   <div>
-                    <Button height="35px" width="170px" text={"Explore Marketplace"} bgcolor="white" textcolor="#00AA14" />
+                    <Button size="md"  text={"Explore Marketplace"} bgcolor="white" textcolor="#00AA14" />
                   </div>
                 </div>
 
                 <div className="h-[220px] w-[60vw] mt-20 bg-white rounded-t-2xl flex justify-center items-end">
 
-                  <div className="h-[200px] w-[58vw] bg-[url('/images/hero2.png')]  bg-cover mt-4 rounded-t-lg">
+                  <div className="h-[200px] w-[58vw] bg-[#C3FFCB]  bg-cover mt-4 rounded-t-lg flex flex-col justify-between items-center">
 
+                        <div className="w-[96%] mt-[24px] h-[30%] bg-[#E0FFE4] rounded-xl flex justify-between items-center pr-2  hover:rotate-x-0 transition-transform duration-300">
+
+                            <span className="text-white text-4xl  animate-pulse duration-20">✦</span>
+
+                            <div className="text-[30px] opacity-50">
+                             
+                            </div>
+                        </div>
+
+
+                        <div className="w-[96%] h-[46%]   rounded-t-2xl flex gap-[3%]">
+
+                          <div className="bg-[#EDFFEF] h-full w-[50%] rounded-t-2xl">
+
+                              
+                              
+
+                          </div>
+
+
+
+                          <div className="w-[46%]   h-full flex justify-between">
+
+
+                              <div className="w-[30%] h-full bg-[#B1EEB9] rounded-t-2xl   z-0  flex flex-col justify-evenly">
+
+                                <div className="w-full ">
+                                      <div className="text-white animate-ping ml-8 ">
+                                                ✦
+                                      </div>
+                                </div>
+
+                                <div className=" w-full h-[23px] rounded-r-2xl flex justify-end transform transition-transform hover:-rotate-4 origin-right">
+                                        <div className="bg-[#e5f8e7] h-full w-[70%] rounded-l-md">
+
+                                      </div>
+                                </div>
+
+                                <div className=" w-full h-[23px] rounded-r-2xl ">
+                                        <div className="bg-[#e5f8e7] h-full w-[66%] rounded-r-md transform transition-transform hover:rotate-4 origin-left">
+
+                                      </div>
+                                </div>
+
+
+                              </div>
+
+
+
+                              <div className="w-[30%] h-full bg-[#B1EEB9] rounded-t-2xl flex justify-evenly">
+
+                                <div className="h-full  w-[23px] flex items-end origin-bottom hover:scale-y-220 transition-transform duration-200">
+
+                                  <div className="h-[30%] bg-green-900 w-full rounded-t-sm ">
+
+                                  </div>
+
+                                </div>
+                                <div className="h-full  w-[23px] flex items-end origin-bottom hover:scale-y-140 transition-transform duration-200">
+                                  <div className="h-[63%] bg-green-400 w-full rounded-t-sm">
+
+                                  </div>
+                                </div>
+                                <div className="h-full  w-[23px] flex items-end origin-bottom hover:scale-y-150 transition-transform duration-200">
+                                  <div className="h-[46%] bg-green-600 w-full rounded-t-sm">
+
+                                  </div>
+                                </div>
+
+                              </div>
+
+
+
+
+
+
+
+                              <div className="w-[30%] h-full bg-[#B1EEB9] rounded-t-2xl flex">
+
+                                <div className="bg-white h-[20px] w-[20px] transition-transform transform scale-200 bor" >
+
+                                </div>
+
+
+                              </div>
+
+                          </div>
+
+                        </div>
                    
 
                   </div>

@@ -19,7 +19,7 @@ export default function Navbar(){
 
 
           <div>
-            <Button height="40px" width="120px" text={"Get Started"} bgcolor="#00AA14" textcolor="white"  />
+            <Button size="lg" text={"Get Started"} bgcolor="#00AA14" textcolor="white"  />
           </div>
 
         </div>
