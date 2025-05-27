@@ -118,7 +118,7 @@ export default function Main(){
                                           Raj Enterprises
                                      </div>
                                      <div className="text-[5px]">
-                                          Mahilpur , Hsp
+                                          boca chica , Texas
                                      </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@ export default function Main(){
                                           Wasi Manufacturer
                                      </div>
                                      <div className="text-[5px]">
-                                          Saila , Hsp
+                                          Andheri , Mumbai
                                      </div>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@ export default function Main(){
                                           Nitin Exports
                                      </div>
                                      <div className="text-[5px]">
-                                          Piplawala , Hsp
+                                          Jalandhar , Punjab
                                      </div>
                                 </div>
                             </div>
