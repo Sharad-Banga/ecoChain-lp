@@ -2,7 +2,7 @@ export default function Main(){
   return(
     <>
 
-    <div className="main h-[270vh] w-full flex flex-col items-center  bg-white justify-evenly">
+    <div className="main h-[270vh] w-full flex flex-col items-center  bg-white justify-around">
 
 
           <div className="works h-[40vh] w-[80vw]  flex justify-evenly items-center">
@@ -109,7 +109,7 @@ export default function Main(){
                             <div className="h-[22%] w-[74%] bg-[#FFFFFF] rounded-lg drop-shadow-xl flex items-center justify-start hover:scale-105 transition-transform duration-100 group">
                                 <div className="h-[26px] w-[26px] bg-[#D9D9D9] rounded-sm flex justify-center items-center ml-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-5">
-                                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
+                                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
                                     </svg>
 
                                 </div>
@@ -147,9 +147,9 @@ export default function Main(){
 
                             <div className="h-[22%] w-[74%] bg-[#FFFFFF] rounded-lg drop-shadow-xl flex items-center justify-start hover:scale-105 transition-transform duration-100 group">
                                 <div className="h-[26px] w-[26px] bg-[#D9D9D9] rounded-sm flex justify-center items-center ml-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-5">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
-</svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-5">
+                                      <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+                                    </svg>
 
                                 </div>
                                 <div className="font-poppins text-[10px] text-[#002D07] ml-2">
