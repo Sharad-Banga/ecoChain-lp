@@ -14,7 +14,7 @@ export default function Hero(){
                   <div>Turn Waste into Wealth </div>
                   <div>&nbsp; &nbsp; with EcoChain <span className=" h-14 ">🌱</span></div>
                 </div>
-                <div className="font-Poppins flex flex-col justify-center text-[12px] sm:text-[17px]  font-extralight text-black items-center">
+                <div className="font-Poppins flex flex-col justify-center text-[12px] sm:text-[17px]  font-light text-black items-center">
                   <div>Recycle, Earn Eco Tokens, and Shop Sustainably </div>
                   <div>Join the Smart Ecosystem for a Greener Tomorrow.</div>
                 </div>
