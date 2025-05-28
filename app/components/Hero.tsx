@@ -7,7 +7,8 @@ export default function Hero(){
      <div className="h-screen w-full flex justify-center items-center">
       <div className="bg-[url('/images/gradient.png')] h-[96vh] w-[98vw] rounded-3xl flex justify-center items-center sm:items-center">
           <div className="flex flex-col items-center   sm:mt-12 h-[80vh] sm:h-[90vh] ">
-            <div className="h-[500px] sm:h-[1000px] ">
+            <div className="h-[100px] sm:h-[1000px] bg-red-300">
+              s
             </div>
                 <div className="font-raleway flex flex-col justify-center items-center  sm:mt-25 text-[24px] sm:text-[36px] md:text-[42px] gap-0  font-semibold mb-2 sm:mb-0">
                   <div>Turn Waste into Wealth </div>
