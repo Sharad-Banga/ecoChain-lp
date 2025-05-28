@@ -2,7 +2,7 @@ export default function Main(){
   return(
     <>
 
-    <div className="main h-[240vh] sm:h-[270vh] w-full flex flex-col items-center  bg-white justify-between sm:justify-around">
+    <div className="main h-[220vh] sm:h-[270vh] w-full flex flex-col items-center  bg-white justify-between sm:justify-around">
 
 
           <div className="works h-[40vh] w-[80vw] flex-col-reverse  sm:flex-row flex justify-evenly items-center">
@@ -15,7 +15,7 @@ export default function Main(){
                 A quick glance at your journey from recycling to rewarding. Eco Chain simplifies sustainable living into four easy steps, powered by AI and community collaboration.
               </div>
             </div>
-            <div className="sm:h-full w-[70vw] h-[70vh] sm:w-[22vw] bg-white bg-center rounded-lg drop-shadow-2xl  ">
+            <div className="sm:h-full w-[80vw] h-[70vh] sm:w-[22vw] bg-white bg-center rounded-lg drop-shadow-2xl  ">
               <div className=" sm:h-full h-[40vh] w-full bg-center pt-5 pb-5  bg-[url('/images/gradient2.png')] rounded-lg flex flex-col justify-evenly items-center">
 
                   <div className="h-[20%] w-[74%] bg-white rounded-lg drop-shadow-xl flex items-center justify-start hover:scale-105 transition-transform duration-100 group">
@@ -72,10 +72,10 @@ export default function Main(){
 
 
 
-          <div className="works h-[80vh] sm:h-[45vh] w-[75vw]  flex flex-col sm:flex-row justify-evenly items-center ">
+          <div className="works mt-26 sm:mt-0 h-[80vh] sm:h-[45vh] w-[80vw]  flex flex-col sm:flex-row justify-evenly items-center ">
 
 
-              <div className="h-[82vh] sm:h-full w-[70vw] sm:w-[25vw] bg-white bg-center rounded-lg drop-shadow-2xl ">
+              <div className="h-[82vh] sm:h-full w-[80vw] sm:w-[25vw] bg-white bg-center rounded-lg drop-shadow-2xl ">
                 <div className="h-full w-full bg-center pt-5   bg-[url('/images/gradient2.png')] rounded-lg flex flex-col justify-end items-center ">
 
                       <div className="h-[88%] w-[60%] bg-white rounded-t-2xl border-[#8C8C8C] border-3 border-b-0">
@@ -224,7 +224,7 @@ export default function Main(){
 
 
 
-          <div className="works  h-[40vh] w-[80vw]  flex flex-col-reverse sm:flex-row justify-start sm:justify-evenly items-center ">
+          <div className="works mt-24 sm:mt-0 h-[40vh] w-[80vw]  flex flex-col-reverse sm:flex-row justify-start sm:justify-evenly items-center ">
             <div className="  h-[90%] w-[70vw] mt-4 sm:mt-0 sm:w-[25vw] flex flex-col justify-evenly ">
               <div className="text-[30px] font-raleway font-semibold text-[#1B5E20]"> 
                 Earn Eco Tokens
