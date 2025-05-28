@@ -72,7 +72,7 @@ export default function Main(){
 
 
 
-          <div className="works mt-26 sm:mt-0 h-[80vh] sm:h-[45vh] w-[80vw]  flex flex-col sm:flex-row justify-evenly items-center bg-red-100 ">
+          <div className="works mt-26 sm:mt-0 h-[80vh] sm:h-[45vh] w-[80vw]  flex flex-col sm:flex-row justify-evenly items-center  ">
 
 
               <div className="h-[82vh] sm:h-full w-[80vw] sm:w-[25vw] bg-white bg-center rounded-lg drop-shadow-2xl ">
@@ -176,10 +176,12 @@ export default function Main(){
 
 
 
-              <div className="  h-[90%]  w-[80vw] sm:w-[25vw] flex flex-col justify-evenly items-center sm:items-start ">
+              <div className="  h-[75%]  w-[80vw] sm:w-[25vw] flex flex-col justify-evenly items-center sm:items-start ">
                 <div className="text-[20px] sm:text-[30px] font-raleway font-semibold text-[#1B5E20]"> 
                       Recycle Waste            
-                      <br />
+                      <div className="hidden sm:flex">
+                        <br />
+                      </div>
                 </div>
                 <div className="text-wrap text-[13px] sm:text-[17px] opacity-60 flex flex-col   font-poppins font-extralight">
                       Drop off your recyclable waste at a nearby partner center. Use our AI assistant to guide you through the segregation process, then upload a photo or scan the QR code at the drop-off point.                    <br />
