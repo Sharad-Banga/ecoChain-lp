@@ -8,9 +8,9 @@ export default function Hero(){
       <div className="bg-[url('/images/gradient.png')] h-[96vh] w-[98vw] rounded-3xl flex justify-center items-center sm:items-center">
           <div className="flex flex-col items-center   sm:mt-12 h-[80vh] sm:h-[90vh] ">
             <div className="h-[180px] sm:h-[1000px] ">
-              s
+              
             </div>
-                <div className="font-raleway flex flex-col justify-center items-center  sm:mt-25 text-[24px] sm:text-[36px] md:text-[42px] gap-0  font-semibold mb-2 sm:mb-0">
+                <div className="font-raleway flex flex-col justify-center items-center  sm:mt-25 text-[26px] sm:text-[36px] md:text-[42px] gap-0  font-semibold mb-2 sm:mb-0">
                   <div>Turn Waste into Wealth </div>
                   <div>&nbsp; &nbsp; with EcoChain <span className=" h-14 ">🌱</span></div>
                 </div>
