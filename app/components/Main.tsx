@@ -72,7 +72,7 @@ export default function Main(){
 
 
 
-          <div className="works mt-26 sm:mt-0 h-[80vh] sm:h-[45vh] w-[80vw]  flex flex-col sm:flex-row justify-evenly items-center ">
+          <div className="works mt-26 sm:mt-0 h-[80vh] sm:h-[45vh] w-[80vw]  flex flex-col sm:flex-row justify-evenly items-center bg-red-100 ">
 
 
               <div className="h-[82vh] sm:h-full w-[80vw] sm:w-[25vw] bg-white bg-center rounded-lg drop-shadow-2xl ">
@@ -176,7 +176,7 @@ export default function Main(){
 
 
 
-              <div className="  h-[90%]  w-[80vw] sm:w-[25vw] flex flex-col justify-evenly items-center sm:items-start">
+              <div className="  h-[90%]  w-[80vw] sm:w-[25vw] flex flex-col justify-evenly items-center sm:items-start ">
                 <div className="text-[20px] sm:text-[30px] font-raleway font-semibold text-[#1B5E20]"> 
                       Recycle Waste            
                       <br />
@@ -224,7 +224,7 @@ export default function Main(){
 
 
 
-          <div className="works mt-24 sm:mt-0 h-[40vh] w-[80vw]  flex flex-col-reverse sm:flex-row justify-start sm:justify-evenly items-center ">
+          <div className="works mt-16 sm:mt-0 h-[40vh] w-[80vw]  flex flex-col-reverse sm:flex-row justify-start sm:justify-evenly items-center ">
             <div className="  h-[90%] w-[70vw] mt-4 sm:mt-0 sm:w-[25vw] flex flex-col justify-evenly ">
               <div className="text-[30px] font-raleway font-semibold text-[#1B5E20]"> 
                 Earn Eco Tokens
