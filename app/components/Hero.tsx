@@ -22,7 +22,7 @@ export default function Hero(){
                   <div >
                     <Button size="md" text={"Sign In"} bgcolor="#00AA14" textcolor="white" />
                   </div>
-                  <div>
+                  <div> 
                     <Button size="md"  text={"Explore Marketplace"} bgcolor="white" textcolor="#00AA14" />
                   </div>
                 </div>
