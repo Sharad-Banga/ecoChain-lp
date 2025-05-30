@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Scroll from "./components/Scroll";
+import ThreeR from "./components/ThreeR";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Hero/>
     <Scroll/>
     <Main/>
+    <ThreeR/>
     </>
   );
 }
