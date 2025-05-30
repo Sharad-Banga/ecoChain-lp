@@ -5,7 +5,7 @@ import Expendable from "../UiLib/Expendable";
 
 
 
-export default function frequently(){
+export default function Frequently(){
 const [expanded, setExpanded] = useState([false,false,false,false,false]);
 
 const tog=(num:number)=>{
