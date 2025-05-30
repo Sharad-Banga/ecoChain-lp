@@ -1,3 +1,4 @@
+import Frequently from "./components/Frequently";
 import Hero from "./components/Hero";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ export default function Home() {
     <Scroll/>
     <Main/>
     <ThreeR/>
+    <Frequently/>
     </>
   );
 }
