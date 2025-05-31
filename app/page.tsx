@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Frequently from "./components/Frequently";
 import Hero from "./components/Hero";
 import Main from "./components/Main";
@@ -14,6 +15,7 @@ export default function Home() {
     <Main/>
     <ThreeR/>
     <Frequently/>
+    <Footer/>
     </>
   );
 }

@@ -1,3 +1,4 @@
+import { keyframes } from 'framer-motion'
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -20,6 +21,15 @@ const config: Config = {
         poppins: ['var(--font-poppins)'],
         geistsans: ['var(--font-geist-sans)']
       },
+      keyframes:{
+        scroll:{
+          '0%': {transform : 'translateX(0)'},
+          '100%' : {transform : 'translateX(-50%)'},
+        }
+      },
+      animation:{
+        scroll:'scroll 12s linear infinite'
+      }
     },
   },
   plugins: [],
