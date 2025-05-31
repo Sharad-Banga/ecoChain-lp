@@ -1,3 +1,4 @@
+import Button from "../UiLib/Button";
 
 export default function Footer(){
 
@@ -24,7 +25,6 @@ export default function Footer(){
                     <div className="opacity-70 hover:opacity-100">ABOUT</div>
                     <div className="opacity-70 hover:opacity-100">STATUS</div>
                     <div className="opacity-70 hover:opacity-100">FEATURES</div>
-                    <div className="opacity-70 hover:opacity-100">SUSTAINABIdivTY</div>
                   </div>
             </div>
 
@@ -33,7 +33,13 @@ export default function Footer(){
 
 
 
-            <div></div>
+            <div className=" w-[33%] flex  flex-col items-center">
+                <div className="font-medium mb-2 font-poppins flex justify-start  w-[48%]">Register</div>
+                <div className="flex gap-2 items-center">
+                  <input type="text" className="bg-white h-7 rounded-md" />
+                  <Button size="sm" bgcolor="#FF7F0F" textcolor="#FFFFFF" text="Send" />
+                </div>
+            </div>
 
         </div>
     </>

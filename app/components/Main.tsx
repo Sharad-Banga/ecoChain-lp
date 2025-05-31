@@ -2,7 +2,7 @@ export default function Main(){
   return(
     <>
 
-    <div className="main h-[235vh] sm:h-[270vh] w-full flex flex-col items-center  bg-white justify-between sm:justify-around">
+    <div className="bg-[#f8f8f8] main h-[235vh] sm:h-[260vh] w-full flex flex-col items-center   justify-between sm:justify-around">
 
 
           <div className="works h-[40vh] w-[80vw] flex-col-reverse  sm:flex-row flex justify-evenly items-center">

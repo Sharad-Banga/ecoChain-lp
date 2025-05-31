@@ -13,7 +13,7 @@ interface sizeInter{
 
 const sizeObj : sizeInter = {
 
-  "sm" : "s",
+  "sm" : "h-[30px] pl-2 pr-2",
   "md" : " h-[35px] pl-3 pr-3",
   "lg" : "h-[40px] w-[120px]"
 
