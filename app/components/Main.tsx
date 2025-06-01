@@ -2,20 +2,20 @@ export default function Main(){
   return(
     <>
 
-    <div className="bg-[#f8f8f8] main h-[235vh] sm:h-[260vh] w-full flex flex-col items-center   justify-between sm:justify-around">
+    <div className="bg-[#f9f7f770] main h-[235vh] sm:h-[260vh] w-full flex flex-col items-center   justify-between sm:justify-around sm:pt-30 sm:pb-30">
 
 
-          <div className="works h-[40vh] w-[80vw] flex-col-reverse  sm:flex-row flex justify-evenly items-center">
-            <div className="  h-[70%] w-[70vw] sm:w-[22vw] flex flex-col justify-evenly mt-8 sm:mt-0">
-              <div className="text-[24px] sm:text-[30px] font-raleway font-semibold text-[#1B5E20] mb-2 sm:mb-0"> 
+          <div className="works h-[70vh]  sm:h-[46vh] w-[90vw]  sm:w-[60vw] flex-col-reverse group hover:bg-[url('/images/gradient.png')]   bg-center bg-origin-border bg-no-repeat  sm:flex-row flex justify-evenly items-center bg-[#F5F5F5] border-1 border-gray-500/20 rounded-2xl pt-4 sm:pt-0">
+            <div className=" h-[66%] sm:h-[70%] w-[70vw] sm:w-[22vw] md:w-[28vw] flex flex-col justify-evenly  mt-8 sm:mt-0 ">
+              <div className="text-[15px] sm:text-[30px] font-raleway pl-2 sm:pl-6 font-semibold text-[#1B5E20]  flex justify-center sm:justify-start "> 
                 How Eco Chain Works
                 
               </div>
-              <div className="text-wrap text-[14px] flex items-center sm:text-[17px] opacity-60 font-poppins font-extralight">
+              <div className="text-wrap text-[13px] flex items-center mb-4 sm:mb-0 pl-3 sm:pl-6 pr-6 sm:text-[17px] opacity-60 font-poppins font-extralight">
                 A quick glance at your journey from recycling to rewarding. Eco Chain simplifies sustainable living into four easy steps, powered by AI and community collaboration.
               </div>
             </div>
-            <div className="sm:h-full w-[80vw] h-[70vh] sm:w-[22vw] bg-white bg-center rounded-lg drop-shadow-2xl  ">
+            <div className="sm:h-[86%] w-[80vw] h-[70vh] sm:w-[22vw] bg-white bg-center rounded-lg drop-shadow-2xl group-hover:border-1 border-[#f5f5f567] ">
               <div className=" sm:h-full h-[40vh] w-full bg-center pt-5 pb-5  bg-[url('/images/gradient2.png')] rounded-lg flex flex-col justify-evenly items-center">
 
                   <div className="h-[20%] w-[74%] bg-white rounded-lg drop-shadow-xl flex items-center justify-start hover:scale-105 transition-transform duration-100 group">
@@ -72,10 +72,10 @@ export default function Main(){
 
 
 
-          <div className="works  mt-26 sm:mt-0 h-[80vh] sm:h-[45vh] w-[80vw]  flex flex-col sm:flex-row justify-evenly items-center  ">
+          <div className="works group mt-26 sm:mt-0 h-[80vh] sm:h-[48vh] sm:w-[60vw] w-[90vw] hover:bg-[url('/images/gradient.png')] bg-center bg-origin-border  bg-no-repeat  flex flex-col sm:flex-row justify-between items-center sm:p-4 bg-[#F5F5F5] border-1 border-gray-500/20 rounded-2xl ">
 
 
-              <div className="h-[82vh] sm:h-full w-[80vw] sm:w-[25vw] bg-white bg-center rounded-lg drop-shadow-2xl ">
+              <div className="h-[82vh] sm:h-[96%] w-[80vw] mt-6 sm:mt-0 sm:w-[25vw] bg-white bg-center rounded-lg drop-shadow-2xl group-hover:border-1 border-[#f5f5f567] ">
                 <div className="h-full w-full bg-center pt-5   bg-[url('/images/gradient2.png')] rounded-lg flex flex-col justify-end items-center ">
 
                       <div className="h-[88%] w-[60%] bg-white rounded-t-2xl border-[#8C8C8C] border-3 border-b-0">
@@ -182,7 +182,7 @@ export default function Main(){
                       <div className="hidden sm:flex">
                       </div>
                 </div>
-                <div className="text-wrap text-[13px] sm:text-[17px] opacity-60 flex flex-col   font-poppins font-extralight">
+                <div className="text-wrap text-[13px] sm:text-[15px] opacity-60 flex flex-col sm:pr-8  font-poppins font-extralight">
                       Drop off your recyclable waste at a nearby partner center. Use our AI assistant to guide you through the segregation process, then upload a photo or scan the QR code at the drop-off point.                    <br />
                       <br />
 
@@ -225,29 +225,28 @@ export default function Main(){
 
 
 
-          <div className="works mt-16 sm:mt-0 h-[40vh] w-[80vw]  flex flex-col-reverse sm:flex-row justify-start sm:justify-evenly items-center ">
-            <div className="  h-[90%] w-[70vw] mt-4 sm:mt-0 sm:w-[25vw] flex flex-col justify-evenly ">
-              <div className="text-[30px] font-raleway font-semibold text-[#1B5E20]"> 
+          <div className="pt-4 pb-4 sm:pb-0 sm:pt-0 group works mt-16 sm:mt-0 h-[80vh] sm:h-[46vh] w-[90vw] sm:w-[60vw] hover:bg-[url('/images/gradient.png')]   bg-cover bg-no-repeat  flex flex-col-reverse sm:flex-row justify-start sm:justify-evenly items-center bg-[#F5F5F5] border-1 border-gray-500/20 rounded-2xl ">
+            <div className="  h-[70%] w-[70vw] mt-4 sm:mt-0 sm:w-[25vw] flex flex-col justify-evenly ">
+              <div className="text-[16px] sm:text-[30px] font-raleway font-semibold text-[#1B5E20] mb-1 sm:mb-0 flex justify-center sm:justify-start"> 
                 Earn Eco Tokens
                 <br />
               </div>
-              <div className="text-wrap text-[13px] sm:text-[17px] opacity-60 font-poppins font-extralight">
+              <div className="text-wrap text-[12px] sm:text-[15px] opacity-60 font-poppins font-extralight">
                     These tokens recognize your contribution to the planet and fuel your journey in the Eco Chain ecosystem.
                     <br />
-                    <br />
 
-                    <ul className="list-none">
-                      <li className="">💰 Earn based on type and quantity of waste</li >
+                    <ul className="list-none mt-2">
+                      <li className="">💰 Earn based on type and quantity </li >
                       <li > 🏅 Bonus tokens for frequent recyclers</li >
-                      <li >🎁 Tokens appear in your Wallet instantly  approval</li >
+                      <li >🎁 Tokens appear in your Wallet instantly </li >
                     </ul>
 
               </div>
             </div>
-            <div className="h-full w-[75vw]  sm:w-[24vw] bg-white bg-center rounded-lg drop-shadow-2xl group">
+            <div className="h-[88%] w-[75vw]  sm:w-[24vw] bg-white bg-center rounded-lg drop-shadow-2xl group group-hover:border-1 border-[#f5f5f567]">
               <div className="h-full w-full bg-center pt-5 pb-5  bg-[url('/images/gradient2.png')] rounded-lg flex flex-col justify-evenly items-center">
 
-                  <div className="h-[95%] w-[76%] bg-white flex flex-col justify-evenly items-center rounded-2xl">
+                  <div className="h-[95%] w-[76%] bg-white flex flex-col justify-evenly items-center rounded-xl">
                         <div className="font-raleway font-light mt-2 sm:mt-4">
                           Congratulations <span className="group-hover:animate-ping">🎉</span>
                         </div>

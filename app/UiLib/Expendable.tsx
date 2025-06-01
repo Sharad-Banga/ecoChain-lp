@@ -9,7 +9,7 @@ interface ExpendableInter{
 export default function Expendable(props:ExpendableInter){
   return(
     <div className="flex select-none cursor-pointer justify-center w-full drop-shadow-xl " onClick={props.onClick}>
-        <div className={`${props.exp?"h-[100px]":"h-[40px] sm:h-[70px]"} w-[80%] bg-white text-black flex flex-col justify-center  pb-4 pl-2 pr-2 sm:pl-5 sm:pr-5 m-1 sm:m-3 rounded-xl `}>
+        <div className={`${props.exp?"h-[100px]":"h-[40px] sm:h-[70px]"} w-[80%] bg-white text-black flex flex-col justify-center  pb-4 pl-2 pr-2 sm:pl-5 sm:pr-5 m-1 sm:m-3 rounded-lg `}>
 
             <div className="flex justify-between items-center pt-4 ">
               <div className="font-bold font-raleway text-[10px] sm:text-[16px]">

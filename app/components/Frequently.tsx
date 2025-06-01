@@ -21,8 +21,8 @@ const tog=(num:number)=>{
 
 
   return(
-    <div className="select-none flex justify-center w-full h-full items-center mt-10 mb-10 sm:mt-30 sm:mb-30">
-        <div className="w-[76vw] h-[90%] flex flex-col justify-center items-center bg-[#53E26452] rounded-xl pb-6 sm:pb-14">
+    <div className="select-none flex justify-center w-full h-full items-center mt-10 mb-10 sm:mt-50 sm:mb-50">
+        <div className="w-[70vw] h-[90%] flex flex-col justify-center items-center bg-[url('/images/gradient.png')] bg-center rounded-xl pb-6 sm:pb-14">
           <div className="text-[#1B5E20] font-semibold md:text-[36px] font-poppins mt-4 mb-4 sm:mt-8 sm:mb-8">
             Frequently Asked questions
           </div>
