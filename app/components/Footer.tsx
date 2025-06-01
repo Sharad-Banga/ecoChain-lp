@@ -1,4 +1,3 @@
-import Button from "../UiLib/Button";
 
 export default function Footer(){
 
@@ -32,13 +31,7 @@ export default function Footer(){
 
 
 
-            {/* <div className=" w-[33%] flex  flex-col items-center">
-                <div className="font-medium mb-2 font-poppins flex justify-start  w-[48%] text-[10px]">Register </div>
-                <div className="flex gap-2 items-center">
-                  <input type="text" className="bg-white h-7 rounded-md w-[50%]" />
-                  <Button size="sm" bgcolor="#FF7F0F" textcolor="#FFFFFF" text="Send" />
-                </div>
-            </div> */}
+            
 
 
             <div className="font-poppins text-[10px] flex flex-col justify-center items-center sm:text-[16px] sm:mb-2">
