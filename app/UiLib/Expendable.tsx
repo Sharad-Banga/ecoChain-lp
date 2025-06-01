@@ -33,7 +33,7 @@ export default function Expendable(props:ExpendableInter){
             </div>
 
 
-            <div className={`${props.exp?"block":"hidden"} text-[8px] sm:text-[14px] mt-1 transition-transform text-black opacity-75 pl-5 pr-4`}>
+            <div className={`${props.exp?"block":"hidden"} font-poppins text-[6px] sm:text-[14px] mt-1 transition-transform text-black/70 pl-5 pr-4`}>
                   {props.ans}
             </div>
 

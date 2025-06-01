@@ -3,9 +3,9 @@ export default function Scroll(){
   return (
     <>
 
-    <div className="h-[14vh] sm:h-[28vh]  mt-2 sm:mt-10 mb-20 md:gap-4 w-full flex flex-col justify-evenly items-center">
+    <div className="h-[14vh] sm:h-[16vh]  mt-2 sm:mt-2 mb-26 md:gap-4 w-full flex flex-col justify-evenly items-center">
 
-      <div className="flex justify-center sm:mt-10 text-[16px] sm:text-[20px] text-green-700 font-raleway font-medium">
+      <div className="flex justify-center sm:mt-10 text-[16px] sm:text-[20px] text-gray-500  font-raleway font-semibold">
         In Collaboration with
       </div>
 

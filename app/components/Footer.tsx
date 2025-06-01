@@ -5,7 +5,27 @@ export default function Footer(){
     <>
         <div className="h-[17vh] sm:h-[32vh] w-full bg-[url('/images/footer.png')] bg-cover flex items-center">
 
-            <div className=" h-full w-[30%] flex flex-col justify-center  items-center">
+            
+
+
+
+            <div className="w-[30%] h-full text-[8px] sm:text-[14px] flex flex-col justify-center items-center ">
+                  <div className="cursor-pointer select-none flex justify-between  sm:flex-row w-[60%]  ">
+                  {/* <span className="font-semibold mb-8">IMPORTANT</span>
+
+                    <div className="opacity-70 hover:opacity-100">HELP</div>
+                    <div className="opacity-70 hover:opacity-100">ABOUT</div>
+                    <div className="opacity-70 hover:opacity-100">FEATURES</div> */}
+
+                    © 2025 The EcoChain / Privacy Policy
+                  </div>
+            </div>
+
+
+
+
+
+                <div className=" h-full w-[40%] flex flex-col justify-center  items-center">
               <div className="font-geistsans font-bold text-[13px] sm:text-[16px] md:text-[32px]">
             🌱   Eco<span className="text-[#00AA14]">Chain</span>
               </div>
@@ -16,28 +36,15 @@ export default function Footer(){
 
 
 
-            <div className="w-[46%] h-full text-[10px] sm:text-[18px] flex flex-col justify-center items-center pt-10">
-                  <div className="cursor-pointer select-none ">
-                  <span className="font-semibold mb-8">IMPORTANT</span>
-
-                    <div className="opacity-70 hover:opacity-100">HELP</div>
-                    <div className="opacity-70 hover:opacity-100">ABOUT</div>
-                    <div className="opacity-70 hover:opacity-100">FEATURES</div>
-                  </div>
-            </div>
-
-
-
-
 
 
             
 
 
-            <div className="font-poppins text-[10px] flex flex-col justify-center items-center sm:text-[16px] sm:mb-2">
+            <div className="font-poppins w-[30%] text-[10px] flex flex-col justify-center items-center sm:text-[16px] sm:mb-2">
               <div>Follow Us on:</div>
 
-              <div className="flex w-[80%] sm:w-[100%] justify-between items-center ">
+              <div className="flex  w-[50%] sm:w-[26%] justify-between items-center ">
                 <div>
                   <a className="footer-link" href="https://x.com/sharad_banga" target="_blank" rel="noopener noreferrer"> 
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12" viewBox="0 0 50 50"
@@ -77,8 +84,15 @@ export default function Footer(){
 
 
         <div className="border-t-2 border-white/90 h-6 font-poppins w-full text-[10px] flex justify-center items-center sm:h-8 sm:text-[14px] bg-[#CAFFD1]">
-            Developed and Designed By &nbsp;  <span className="font-semibold hover:text-green-600 cursor-pointer">Sharad Banga</span>
+            Developed and Designed By &nbsp;  <span className="font-semibold hover:text-green-600 cursor-pointer">
+              
+              
+            <a className="footer-link" href="https://x.com/sharad_banga" target="_blank" rel="noopener noreferrer"> Sharad Banga</a>
+              
+              </span>
         </div>
     </>
   )
 }
+
+

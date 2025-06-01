@@ -176,13 +176,13 @@ export default function Main(){
 
 
 
-              <div className="  h-[95%]  w-[80vw] sm:w-[25vw] flex flex-col justify-evenly items-center sm:items-start ">
+              <div className="  h-[95%]  w-[80vw] sm:w-[28vw] flex flex-col justify-evenly items-center sm:items-start ">
                 <div className="text-[20px] sm:text-[30px] font-raleway font-semibold text-[#1B5E20]"> 
                       Recycle Waste            
                       <div className="hidden sm:flex">
                       </div>
                 </div>
-                <div className="text-wrap text-[13px] sm:text-[15px] opacity-60 flex flex-col sm:pr-8  font-poppins font-extralight">
+                <div className="text-wrap text-[13px] sm:text-[15px]  opacity-60 flex flex-col sm:pr-8  font-poppins font-extralight ">
                       Drop off your recyclable waste at a nearby partner center. Use our AI assistant to guide you through the segregation process, then upload a photo or scan the QR code at the drop-off point.                    <br />
                       <br />
 
