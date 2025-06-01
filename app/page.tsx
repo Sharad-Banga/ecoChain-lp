@@ -16,6 +16,7 @@ export default function Home() {
     <ThreeR/>
     <Frequently/>
     <Footer/>
+    
     </>
   );
 }
