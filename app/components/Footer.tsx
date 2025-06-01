@@ -3,7 +3,7 @@ export default function Footer(){
 
   return(
     <>
-        <div className="h-[17vh] sm:h-[32vh] w-full bg-[url('/images/footer.png')] bg-cover flex items-center">
+        <div className="h-[17vh] sm:h-[26vh] w-full bg-[url('/images/footer.png')] bg-cover flex items-center">
 
             
 
@@ -83,7 +83,7 @@ export default function Footer(){
 
 
 
-        <div className="border-t-2 border-white/90 h-6 font-poppins w-full text-[10px] flex justify-center items-center sm:h-8 sm:text-[14px] bg-[#CAFFD1]">
+        <div className="border-t-2 border-white/90 h-6 font-poppins w-full text-[10px] flex justify-center items-center sm:h-10 sm:text-[14px] bg-[#CAFFD1]">
             Developed and Designed By &nbsp;  <span className="font-semibold hover:text-green-600 cursor-pointer">
               
               
