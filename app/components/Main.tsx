@@ -5,7 +5,7 @@ export default function Main(){
     <div className="bg-[#f9f7f770] main h-[235vh] sm:h-[260vh] w-full flex flex-col items-center   justify-between sm:justify-around sm:pt-30 sm:pb-30">
 
 
-          <div className="works h-[70vh]  sm:h-[46vh] w-[90vw]  sm:w-[60vw] flex-col-reverse group hover:bg-[url('/images/gradient.png')]   bg-center bg-origin-border bg-no-repeat  sm:flex-row flex justify-evenly items-center bg-[#F5F5F5] border-1 border-gray-500/20 rounded-2xl pt-4 sm:pt-0">
+          <div className="works h-[70vh]  sm:h-[46vh] w-[90vw]  sm:w-[60vw] flex-col-reverse group hover:bg-[url('/images/g1.png')]   bg-left bg-origin-border bg-no-repeat  sm:flex-row flex justify-evenly items-center bg-[#F5F5F5] border-1 border-gray-500/20 rounded-2xl pt-4 sm:pt-0">
             <div className=" h-[66%] sm:h-[70%] w-[70vw] sm:w-[22vw] md:w-[28vw] flex flex-col justify-evenly  mt-8 sm:mt-0 ">
               <div className="text-[15px] sm:text-[30px] font-raleway pl-2 sm:pl-6 font-semibold text-[#1B5E20]  flex justify-center sm:justify-start "> 
                 How Eco Chain Works
@@ -72,7 +72,7 @@ export default function Main(){
 
 
 
-          <div className="works group mt-26 sm:mt-0 h-[80vh] sm:h-[48vh] sm:w-[60vw] w-[90vw] hover:bg-[url('/images/gradient.png')] bg-center bg-origin-border  bg-no-repeat  flex flex-col sm:flex-row justify-between items-center sm:p-4 bg-[#F5F5F5] border-1 border-gray-500/20 rounded-2xl ">
+          <div className="works group mt-26 sm:mt-0 h-[80vh] sm:h-[48vh] sm:w-[60vw] w-[90vw] hover:bg-[url('/images/g2.png')] bg-right-top bg-origin-border  bg-no-repeat  flex flex-col sm:flex-row justify-between items-center sm:p-4 bg-[#F5F5F5] border-1 border-gray-500/20 rounded-2xl ">
 
 
               <div className="h-[82vh] sm:h-[96%] w-[80vw] mt-6 sm:mt-0 sm:w-[25vw] bg-white bg-center rounded-lg drop-shadow-2xl group-hover:border-1 border-[#f5f5f567] ">
@@ -225,7 +225,7 @@ export default function Main(){
 
 
 
-          <div className="pt-4 pb-4 sm:pb-0 sm:pt-0 group works mt-16 sm:mt-0 h-[80vh] sm:h-[46vh] w-[90vw] sm:w-[60vw] hover:bg-[url('/images/gradient.png')]   bg-cover bg-no-repeat  flex flex-col-reverse sm:flex-row justify-start sm:justify-evenly items-center bg-[#F5F5F5] border-1 border-gray-500/20 rounded-2xl ">
+          <div className="pt-4 pb-4 sm:pb-0 sm:pt-0 group works mt-16 sm:mt-0 h-[80vh] sm:h-[46vh] w-[90vw] sm:w-[60vw] hover:bg-[url('/images/g1.png')] bg-left   bg-cover bg-no-repeat  flex flex-col-reverse sm:flex-row justify-start sm:justify-evenly items-center bg-[#F5F5F5] border-1 border-gray-500/20 rounded-2xl ">
             <div className="  h-[70%] w-[70vw] mt-4 sm:mt-0 sm:w-[25vw] flex flex-col justify-evenly ">
               <div className="text-[16px] sm:text-[30px] font-raleway font-semibold text-[#1B5E20] mb-1 sm:mb-0 flex justify-center sm:justify-start"> 
                 Earn Eco Tokens
